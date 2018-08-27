@@ -1,0 +1,65 @@
+@media all and (max-width: 992px) {
+    #main-nav label {
+        display: block;
+        text-align: left;
+        padding: 5px 15px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+    }
+    
+    #main-nav ul {
+        display: none;
+    }
+
+    #main-nav ul li {
+        margin: 10px;
+    }
+        
+    #main-nav input:checked + ul {
+        display: block;
+    }
+
+    #about .flex-container {
+        flex-direction: column-reverse;
+    }
+
+    .flex-container {
+        padding: 10px;
+    }
+
+    #skills figure {
+        width: 150px;
+    }
+    .portfolio-inner {
+        flex-basis: 50%;
+    }
+
+    #contact .flex-container {
+        flex-direction: column;
+    }
+
+}    
+
+@media all and (max-width: 480px) {
+
+    section {
+        padding: 20px;
+    }
+
+    #skills figure {
+        width: 100px;
+    }
+
+    #portfolio {
+        height: 150vh;
+    }
+
+    .portfolio-inner {
+        flex-basis: 100%;
+    }
+        
+    #contact p {
+        font-size: 30px;
+    }
+}

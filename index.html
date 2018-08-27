@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+
+  <!-- fonty -->
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- css responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- nav start -->
+  <nav id="main-nav">
+    <label for="menu">
+      <i class="fas fa-bars"></i>
+    </label>
+    <input type="checkbox" id="menu">
+    <ul>
+      <li class="nav-item">
+        <a href="#about">o mnie</a>
+      </li>
+      <li class="nav-item">
+        <a href="#skills">umiejętności</a>
+      </li>
+      <li class="nav-item">
+        <a href="#portfolio">portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact">kontakt</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- nav stop -->
+
+  <!-- header start -->
+  <header id="header">
+    <figure id="logo"><img src="img/moje-logo.jpg" alt=""></figure>
+    <div id="header-inner">
+      <h2>Dorota Sarba</h2>
+      <h1>Junior Front-End Developer</h1>
+      <hr>
+    </div>
+  </header>
+  <!-- header-stop -->
+
+  <!-- section-o mnie-start -->
+  <section id="about">
+    <h3>O mnie</h3>
+    <div class="flex-container">
+      <div id="about-text">
+        <p>
+          Jestem Juniorem Front-End Developerem. Jest to kierunek, w którym pragnę się rozwijać, ponieważ interesują mnie nowe technologie
+          informatyczne, a także ich sposób powstawania i możliwość uzyskania maksymalnej użyteczności przy równoczesnym
+          zapewnieniu estetycznego designu.
+        </p>
+        <h4>Social media</h4>
+        <div class="social-media">
+          <a href="https://www.facebook.com/dorota.es.94"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/dorota-sarba/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/sdorota"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <figure id="about-foto">
+        <img src="img/zdjęcie.jpg" alt="Dorota Sarba">
+      </figure>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3>Moje umiejętności</h3>
+    <div class="flex-container">
+      <figure>
+        <img src="img/icons/html5.svg" alt="">
+        <figcaption> HTML5</figcaption>
+      </figure>
+      <figure>
+        <img src="img/icons/css3.svg" alt="">
+        <figcaption>CSS3</figcaption>
+      </figure>
+      <figure>
+        <img src="img/icons/javascript.svg" alt="">
+        <figcaption>Java Script</figcaption>
+      </figure>
+      <figure>
+        <img src="img/icons/jquery.svg" alt="">
+        <figcaption>jQuery</figcaption>
+      </figure>
+      <figure>
+        <img src="img/icons/bootstrap.svg" alt="">
+        <figcaption>Bootstrap</figcaption>
+      </figure>
+      <figure>
+        <img src="img/icons/sass.svg" alt="">
+        <figcaption>Sass</figcaption>
+      </figure>
+      <figure>
+        <img src="img/icons/gulp.svg" alt="">
+        <figcaption>Gulp</figcaption>
+      </figure>
+      <figure>
+        <img src="img/icons/git.svg" alt="">
+        <figcaption>GIT</figcaption>
+      </figure>
+      <figure>
+        <img src="img/icons/wordpress.svg" alt="">
+        <figcaption>WordPress</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h3>Portfolio</h3>
+    <div class="flex-container">
+      <div class="portfolio-inner">
+        <div class="background b1">
+          <div class="mask">
+            <div class="border">
+              <a href="https://sdorota.github.io/Assets-01-WeCreate/" target="_blank">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <h5>Kodowanie pliku PSD</h5>
+        <p>Użyte technologie:<BR> HTML, CSS, BOOTSTRAP, RWD </p>
+      </div>
+      <div class="portfolio-inner">
+          <div class="background b2">
+            <div class="mask">
+              <div class="border">
+                <a href="https://sdorota.github.io/Assets-02-BigCity/" target="_blank">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <h5>Kodowanie pliku PSD</h5>
+          <p>Użyte technologie:<br> HTML, CSS, BOOTSTRAP, SASS, RWD.</p>
+        </div>
+        <div class="portfolio-inner">
+            <div class="background b3">
+              <div class="mask">
+                <div class="border">
+                  <a href="">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <h5></h5>
+            <p>Projekt w trakcie realizacji</p>
+          </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Kontakt</h3>
+    <div class="flex-container">
+      <div id="contact-text">
+        <p>
+          Jeżeli masz dla mnie propozycję współpracy, chesz porozmawiać o projektach lub o coś zapytać - koniecznie napisz!</p>
+      </div>
+      <form action="https://formspree.io/dorota.sarba@gmail.com" method="POST">
+        <input type="text" name="fname" placeholder="Imię i Nazwisko" required>
+        <input type="email" name="_replyto" placeholder="Email" required>
+        <textarea name="message" id="message" placeholder="Tekst wiadomości"></textarea>
+        <input type="submit" value="Wyślij!">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Cypright@ 2018 Kraków Dorota Sarba</p>
+  </footer>
+</body>
+
+</html>
