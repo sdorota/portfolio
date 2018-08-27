@@ -24,6 +24,10 @@
         flex-direction: column-reverse;
     }
 
+    #about p {
+        text-align: center;
+    }
+
     .flex-container {
         padding: 10px;
     }
@@ -61,7 +65,7 @@
     }
 
     #skills figure {
-        width: 100px;
+        width: 80px;
     }
 
     #portfolio {

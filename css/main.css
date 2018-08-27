@@ -124,7 +124,7 @@ hr {
 }
 
 #about-text p{
-  padding: 20px;
+  padding: 10px;
   text-align: left;
   font-size: 22px;
 }
@@ -141,6 +141,7 @@ hr {
 
 h4 {
   font-size: 30px;
+  margin:0;
 }
 
 .social-media i{
@@ -179,6 +180,17 @@ h4 {
   font-size: 20px;
   font-weight: bold;
   color: rgba(81, 90, 90);
+}
+
+#skills figure:hover {
+color: blue;
+}
+
+#skills figure img:hover {
+  transform:rotateY(360deg);
+  transition-duration: 1.6s;
+  transition-delay: 0.1s;
+  color: green;
 }
 /* skills - stop */
 /* portfolio-start */
@@ -237,6 +249,9 @@ height: 300px;
   justify-content: center;
   align-items: center;
 }
+#portfolio a{
+  text-decoration-line: none;
+}
 
 #portfolio i{
   width: 50px;
@@ -245,13 +260,13 @@ height: 300px;
   color:white;
   font-size: 25px;
   border: none;
-  background-color: rgb(93, 109, 126);
+  background-color: rgba(93, 109, 126);
   border: 1px solid rgb(93, 109, 126);
   border-radius: 50%;
   text-align: center;
   align-self: center;
+  opacity: 0.5;
 }
-
 
 
 /* portfolio - stop */
