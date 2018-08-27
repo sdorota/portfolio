@@ -43,6 +43,19 @@
 
 @media all and (max-width: 480px) {
 
+    #logo img {
+        max-width: 120px;
+        max-height: 120px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+    h2{
+        font-size: 40px;
+    }
+
     section {
         padding: 20px;
     }
@@ -52,7 +65,7 @@
     }
 
     #portfolio {
-        height: 150vh;
+        min-height: 150vh;
     }
 
     .portfolio-inner {
