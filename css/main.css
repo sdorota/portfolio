@@ -250,7 +250,7 @@ height: 300px;
   align-items: center;
 }
 #portfolio a{
-  text-decoration-line: none;
+  text-decoration: none;
 }
 
 #portfolio i{
