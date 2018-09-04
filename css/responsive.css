@@ -1,4 +1,7 @@
 @media all and (max-width: 992px) {
+    #main-nav {
+        width: auto;
+    }
     #main-nav label {
         display: block;
         text-align: left;
