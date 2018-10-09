@@ -17,7 +17,9 @@ section {
   padding: 50px;
   vertical-align: middle;
   height: 100vh;
+  max-height: auto;
   justify-content: center;
+  flex-wrap: wrap;
 
 }
 
@@ -200,7 +202,7 @@ color: blue;
 .portfolio-inner{
   flex-basis: 33.33%;
   padding: 25px;
-  min-height: 100vh;
+  height: auto;
 }
 
 .portfolio-inner img {

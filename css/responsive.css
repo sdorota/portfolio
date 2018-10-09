@@ -1,12 +1,12 @@
-@media all and (min-width: 1600px) {
+/* @media all and (min-width: 1600px) {
     #header,
     section {
         max-height: 70vh;
         min-height: 50vh;
     }
-}
+} */
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 1024px) {
     #main-nav {
         width: auto;
     }
@@ -31,6 +31,10 @@
         display: block;
     }
 
+    section {
+        height: auto;
+    }
+
     #about .flex-container {
         flex-direction: column-reverse;
     }
@@ -46,6 +50,7 @@
     #skills figure {
         width: 150px;
     }
+
     .portfolio-inner {
         flex-basis: 50%;
     }
