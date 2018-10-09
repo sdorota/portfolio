@@ -1,3 +1,11 @@
+@media all and (min-width: 1600px) {
+    #header,
+    section {
+        max-height: 70vh;
+        min-height: 50vh;
+    }
+}
+
 @media all and (max-width: 992px) {
     #main-nav {
         width: auto;

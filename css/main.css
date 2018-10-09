@@ -16,7 +16,9 @@ section {
   text-align: center;
   padding: 50px;
   vertical-align: middle;
-  min-height: 100vh;
+  height: 100vh;
+  justify-content: center;
+
 }
 
 h3 {
@@ -198,6 +200,7 @@ color: blue;
 .portfolio-inner{
   flex-basis: 33.33%;
   padding: 25px;
+  min-height: 100vh;
 }
 
 .portfolio-inner img {
@@ -218,7 +221,7 @@ height: 300px;
   background-image: url(../img/projekty/projekt2.png);
 }
 .b3 {
-  background: rgb(207, 221, 240);
+  background-image: url(../img/projekty/projekt3.png);
 }
 
 .mask {
@@ -269,6 +272,11 @@ height: 300px;
   opacity: 0.5;
 }
 
+.portfolio-info{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
 
 /* portfolio - stop */
 
