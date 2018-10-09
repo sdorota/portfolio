@@ -21,8 +21,6 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
-
 }
 
 h3 {
@@ -85,6 +83,7 @@ h1 {
 }
 h2{
   font-size: 50px;
+  margin: 5% ;
 }
 
 hr {
